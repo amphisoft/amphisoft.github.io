@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <style>
+        .line1 {
+            border-left: 20px solid black;
+            height: 800px;
+            position: absolute;
+            left: 2%;
+            top: 2%;
+        }
+        
+        #p1:hover {
+            background-color: brown;
+        }
+        
+        #p2:hover {
+            background-color: brown;
+        }
+        
+        #p3:hover {
+            background-color: brown;
+        }
+        
+        #p4:hover {
+            background-color: brown;
+        }
+        
+        #p5:hover {
+            background-color: brown;
+        }
+        
+        .line {
+            border-left: 20px solid black;
+            height: 800px;
+            position: absolute;
+            left: 25%;
+            top: 2%;
+        }
+    </style>
+    <script>
+        function p1() {
+            document.getElementById('result').innerHTML = "Empathise is the first stage of the Design Thinking process.<br><b>deep understanding of the problems and realities of the people you are designing for. It involves learning about the difficulties people face</b><br>The following stages can be summarised as: Define, Ideate, Prototype and Test. In the empathise stage, your goal, as a designer, is to gain an empathic understanding of the people you’re designing for and the problem you are trying to solve. This process involves observing, engaging, and empathising with the people you are designing for in order to understand their experiences and motivations, as well as immersing yourself in their physical environment in order to have a deeper personal understanding of the issues, needs and challenges involved. Empathy is crucial to a human-centred design process such as Design Thinking, and empathy helps design thinkers to set aside his or her own assumptions about the world in order to gain insight into their users and their needs. Depending on your time constraints, you will want to gather a substantial amount of information at this stage of the Design Thinking process. In the Empathise stage of a Design Thinking process, you will develop the empathy, understandings, experiences, insights and observations on which you will use to build the rest of your design project. We cannot stress enough how important it is for designers such as us to develop the best possible understanding of our users, their needs, and the problems that underlie the development of the particular product or service we’re aiming to design. If you have time and money, you should also consider consulting experts in order to find out more about the people you design for, but you’ll be surprised at how much insight you and your team can easily gain via practical Empathise methods."
+        }
+
+        function p2() {
+
+            document.getElementById('result').innerHTML = "An integral part of the Design Thinking process is the definition of a meaningful and actionable problem statement, which the design thinker will focus on solving. This is perhaps the most challenging part of the Design Thinking process, as the definition of a problem (also called a design challenge) will require you to synthesise your observations about your users from the first stage in the Design Thinking process, which is called the Empathise stage. When you learn how to master the definition of your problem, problem statement, or design challenge, it will greatly improve your Design Thinking process and result. Why? A great definition of your problem statement will guide you and your team’s work and kick start the ideation process in the right direction. It will bring about clarity and focus to the design space. On the contrary, if you don’t pay enough attention to defining your problem, you will work like a person stumbling in the dark."
+        }
+
+        function p3() {
+            document.getElementById('result').innerHTML = "In the Ideation stage, design thinkers spark off ideas — in the form of questions and solutions — through creative and curious activities such as Brainstorms and Worst Possible Idea. In this article, we’ll introduce you to some of the best Ideation methods and guidelines that help facilitate successful Ideation sessions and encourage active participation from members. When facilitated in a successful way, Ideation is an exciting process. The goal is to generate a large number of ideas — ideas that potentially inspire newer, better ideas — that the team can then cut down into the best, most practical and innovative ones. The main aim of the Ideation stage is to use creativity and innovation in order to develop solutions. By expanding the solution space, the design team will be able to look beyond the usual methods of solving problems in order to find better, more elegant, and satisfying solutions to problems that affect a user's experience of a product."
+        }
+
+        function p4() {
+            document.getElementById('result').innerHTML = "One of the best ways to gain insights in a Design Thinking process is to carry out some form of prototyping. This method involves producing an early, inexpensive, and scaled down version of the product in order to reveal any problems with the current design. Prototyping offers designers the opportunity to bring their ideas to life, test the practicability of the current design, and to potentially investigate how a sample of users think and feel about a product. Prototypes are often used in the final, testing phase in a Design Thinking process in order to determine how users behave with the prototype, to reveal new solutions to problems, or to find out whether or not the implemented solutions have been successful. The results generated from these tests are then used to redefine one or more of the problems established in the earlier phases of the project, and to build a more robust understanding of the problems users may face when interacting with the product in the intended environment."
+        }
+
+        function p5() {
+            document.getElementById('result').innerHTML = "here are a wide range of testing methods available to designers during a Design Thinking project; many of which stem from the methodologies typically used during Human-computer interaction (HCI) and User-centered design (UCD) tests. At the heart of these methods, during the Design Thinking process, there is a need to test out the solutions implemented within the current design. If users experience difficulties, then the design team must revisit their list of potential solutions and strategies in order to establish new ways of solving the same problems. User feedback is priceless; without an understanding of what users need in order to carry out specific activities and tasks, the iterative process will fail. Each stage should provide new insights to inform your understanding and help you define or redefine the various problems that the users might face. Therefore, you must seek feedback whenever possible, use real people for testing purposes, and analyse results in order to determine what is right and what is wrong with the product. Testing can be undertaken throughout the progress of a Design Thinking project, although it is most commonly undertaken concurrently with the Prototyping stage. Testing, in Design Thinking, involves generating user feedback as related to the prototypes you have developed, as well as gaining a deeper understanding of your users. When undertaken correctly, the Testing stage of the project can often feed into most stages of the Design Thinking process: it allows you to Empathise and gain a better understanding of your users; it may lead to insights that change the way you Define your problem statement; it may generate new ideas in the Ideation stage; and finally, it might lead to an iteration of your Prototype."
+        }
+    </script>
+</head>
+
+<body bgcolor="yellow">
+    <hr style="border: 10px solid black; margin-left: 24px;">
+    <table cellspacing="100px" padding="10px" style="position:absolute; left:5%;">
+        <tr>
+            <td>
+                <button id="p1" onclick="p1()" style="width:100px; color:crimson;">EMPATHY</td>
+        </tr>
+        <tr>
+            <td><button id="p2" onclick=" p2() " style="width:100px; color:crimson; ">DEFINE</button></td>
+        </tr>
+        <tr>
+            <td><button id="p3" onclick="p3() " style="width:100px; color:crimson; ">IDEATE</button></td>
+        </tr>
+        <tr>
+            <td><button id="p4" onclick="p4() " style="width:100px; color:crimson; ">PROTOTYPE</button></td>
+        </tr>
+        <tr>
+            <td><button id="p5" onclick="p5() " style="width:100px; color:crimson; ">TESTING</button></td>
+        </tr>
+    </table>
+    <div class="line1"></div>
+    <div class="line"></div>
+
+    <div id="result" style="position: absolute; left:30%; font-variant: small-caps; margin:10px; font-size:x-large;"> </div>
+    <center><img src="C:\Users\WELCOME\Desktop\bg.png" z-index="-1" width="700px"></center>
+
+
+
+
+    <br>
+    <br>
+
+    <br>
+    <hr style=" border: 10px solid black; margin-left: 24px; ">
+
+</body>
+
+</html>
